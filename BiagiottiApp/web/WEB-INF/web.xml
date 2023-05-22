@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="6.0" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd">
+    <servlet>
+        <servlet-name>HomeServlet</servlet-name>
+        <servlet-class>giang.dev.HomeServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HomeServlet</servlet-name>
+        <url-pattern>/HomeServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ProductDetailServlet</servlet-name>
+        <servlet-class>giang.dev.ProductDetailServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ProductDetailServlet</servlet-name>
+        <url-pattern>/ProductDetailServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>SearchServlet</servlet-name>
+        <servlet-class>giang.dev.SearchServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SearchServlet</servlet-name>
+        <url-pattern>/SearchServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>CategoryServlet</servlet-name>
+        <servlet-class>giang.dev.CategoryServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CategoryServlet</servlet-name>
+        <url-pattern>/CategoryServlet</url-pattern>
+    </servlet-mapping>
+</web-app>
